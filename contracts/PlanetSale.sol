@@ -1,6 +1,6 @@
 //  bare-bones sample planet sale contract
 
-pragma solidity 0.4.24;
+pragma solidity ^0.4.24;
 
 import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';
 

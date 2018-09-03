@@ -1,6 +1,6 @@
 //  the urbit ethereum constitution
 
-pragma solidity 0.4.24;
+pragma solidity ^0.4.24;
 
 import './ConstitutionBase.sol';
 import './Claims.sol';

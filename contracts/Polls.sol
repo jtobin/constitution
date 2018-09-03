@@ -1,6 +1,6 @@
 //  the urbit polls data store
 
-pragma solidity 0.4.24;
+pragma solidity ^0.4.24;
 
 import './SafeMath8.sol';
 import 'openzeppelin-solidity/contracts/math/SafeMath.sol';

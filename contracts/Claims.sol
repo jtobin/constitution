@@ -1,6 +1,6 @@
 //  simple claims store
 
-pragma solidity 0.4.24;
+pragma solidity ^0.4.24;
 
 import './ReadsShips.sol';
 

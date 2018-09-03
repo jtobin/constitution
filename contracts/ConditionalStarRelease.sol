@@ -1,6 +1,6 @@
 //  conditional star release
 
-pragma solidity 0.4.24;
+pragma solidity ^0.4.24;
 
 import './Constitution.sol';
 import './SafeMath16.sol';

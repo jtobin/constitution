@@ -1,6 +1,6 @@
 // https://github.com/ethereum/ens/blob/master/contracts/ENSRegistry.sol
 
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.24;
 
 import './interfaces/ENS.sol';
 
