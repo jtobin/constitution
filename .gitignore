@@ -5,3 +5,6 @@ coverage
 coverageEnv
 coverage.json
 scTopics
+*.swp
+*.swo
+.solium*
