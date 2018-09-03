@@ -76,6 +76,7 @@ contract ConstitutionBase is Ownable, ReadsShips
   //
   function onUpgrade()
     external
+    view
   {
     //  make sure this is the expected upgrade path,
     //  and that we have gotten the ownership we require

@@ -46,7 +46,8 @@ contract ENSRegistry is ENS {
      * @param owner The address of the new owner.
      */
     function setSubnodeOwner(bytes32 node, bytes32 label, address owner) public only_owner(node) {
-        var subnode = keccak256(abi.encodePacked(node, label));
+        bytes32 subnode;
+        subnode = keccak256(abi.encodePacked(node, label));
         emit NewOwner(node, label, owner);
         records[subnode].owner = owner;
     }

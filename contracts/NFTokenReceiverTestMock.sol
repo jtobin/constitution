@@ -9,6 +9,7 @@ contract NFTokenReceiverTestMock {
     bytes _data
   )
     external
+    pure
     returns(bytes4)
   {
     _operator;
