@@ -9,7 +9,7 @@ contract ERC165Mapping is ERC165 {
     mapping(bytes4 => bool) internal supportedInterfaces;
 
     constructor() internal {
-        supportedInterfaces[this.supportsInterface.selector] = true;
+        supportedInterfaces[0x01ffc9a7] = true; // ERC165
     }
 
     function supportsInterface(bytes4 interfaceID) external view returns (bool) {
